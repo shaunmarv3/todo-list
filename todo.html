@@ -5,26 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO App</title>
+    <link rel="stylesheet" href="design.css">
 </head>
 
 <body>
-    <h1>MY TODO LIST</h1>
-    <input type="text" id="task" placeholder="Enter your task">
-    <button>Add</button>
-    <h2>My Tasks</h2>
-    <ul>
-        <li><input type="checkbox" id="tom" name="tom">
+    <div class="box">
+        <h1>MY TODO LIST</h1>
+
+        <input type="text" id="task" placeholder="Enter your task">
+        <button>Add</button>
+
+        <div class="inner">
+            <h2><u>My Tasks</u></h2>
+
+            <input type="checkbox" id="tom" name="tom">
             <label for="tom">Buy tomatoes</label>
-        </li>
-        <li><input type="checkbox" id="kids" name="kids">
+            <br>
+            <input type="checkbox" id="kids" name="kids">
             <label for="kids">Pick up kids from school</label>
-        </li>
-        <li><input type="checkbox" id="dishes" name="dishes">
+            <br>
+            <input type="checkbox" id="dishes" name="dishes">
             <label for="dishes">wash dishes</label>
-        </li>
-    </ul>
-    <hr>
-    <p><b>Completed : 0 | Uncompleted : 0</b></p>
+
+        </div>
+        <p><b>Completed : 0 | Uncompleted : 0</b></p>
+
+    </div>
 </body>
 
 </html>
