@@ -13,22 +13,20 @@
         <h1>MY TODO LIST</h1>
 
         <input type="text" id="task" placeholder="Enter your task">
-        <button>Add</button>
+        <button onclick="go()">Add</button>
 
         <div class="inner">
             <h2><u>My Tasks</u></h2>
+            <ul id="list">
 
-            <input type="checkbox" id="tom" name="tom">
-            <label for="tom">Buy tomatoes</label>
-            <br>
-            <input type="checkbox" id="kids" name="kids">
-            <label for="kids">Pick up kids from school</label>
-            <br>
-            <input type="checkbox" id="dishes" name="dishes">
-            <label for="dishes">wash dishes</label>
-
+            </ul>
         </div>
-        <p><b>Completed : 0 | incomplete : 0</b></p>
+        <p><b>Completed : <span id="completed">0</span> | incomplete : <span id="incomplete">0</span></b></p>
+        <script src="func.js"></script>
+    </div>
+</body>
+
+</html>
 
     </div>
 </body>
